@@ -23,13 +23,13 @@ body{
 	left:0;
 	bottom:0 ;
 }	
-.content-section{
+.content-section {
 	max-width: 1200px;
 	margin:auto;
 	position: relative;
 
 }
-.sticky{
+.sticky {
 	position: fixed;
 	z-index: 5;
 	top: 0;
@@ -51,41 +51,41 @@ body{
 }
 
 }
-.hlogo{
+.hlogo {
 	display: flex;
 	text-decoration: none;
 	align-items: center;
 }
 
-.header{
+.header {
 	display: flex;
 	align-items: center;
 	height: 80px;
 	justify-content: flex-end;
 }
 
-.header-href-green{	
+.header-href-green {	
 	color: #00e0d0;
 	text-decoration: none;
 	padding: 5px;
 }
 
-.header-href{
+.header-href {
 	color: white;
 	text-decoration: none;
 	padding: 5px;
 }
-.title{
+
+.title {
 	font-size: 32px;
 	font-family: 'Playfair Display', serif;
 	color: #ffffff;
 	height: 31px;
 	z-index: 5;
 	text-align: center;
-
 }
 
-hr{
+hr {
 	align-items: center;
   	position: relative;
   	border-color: rgb(0, 224, 208);
@@ -94,13 +94,13 @@ hr{
     z-index: 3;
   }
   
-.titlehr{
+.titlehr {
   	display: flex;
   	flex-flow: column;
   	padding-top: 200px;
   }
 
-.descriptions{
+.descriptions {
   	text-align: center;
   	color: white;
   	font-family: 'Roboto', sans-serif;
@@ -109,13 +109,13 @@ hr{
   	position: relative;
   	z-index: 1;
 }
-.learn-more{
+
+.learn-more {
 	display: flex;
 	justify-content: center;
-
   }
  
-.button{
+.button {
 	background-color: Transparent;
 	border:1px #00e0d0 solid;
 	padding: 10px;
@@ -130,13 +130,14 @@ hr{
 	text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
 	background: #fff;
 	color: black;
 	border: none;
 	transition: all ease 0.5s;
 }
-.about{
+
+.about {
 	display: flex;
 	height: 400px;
 	position: relative;
@@ -146,17 +147,18 @@ hr{
 	margin-right: 15%;
 	margin-top: 60px;
 }
-.aboutimg{
+
+.aboutimg {
 	margin-right: 95px;	
 }
-.abouttext{
+
+.abouttext {
 	font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
    	color: rgba(65, 61, 75, 0.749);
-    letter-spacing: 0.5px
-
+    letter-spacing: 0.5px;
 }
 
 .buttonabout{
@@ -171,12 +173,14 @@ hr{
 	text-decoration: none;
 	font-family: 'Hammersmith One', sans-serif;
 }
-.buttonabout:hover{
+
+.buttonabout:hover {
 	background: #00e0d0 ;
 	color: #fff;
 	transition: all ease 0.5s;
 }
- .our-story{
+
+ .our-story {
 	font-size: 22px;
 	font-family: "PlayfairDisplay";
 	color: rgb(65, 61, 75);
@@ -185,7 +189,7 @@ hr{
 	margin-bottom: 30px;
   }
 
-  #videoimage{
+  #videoimage {
   	position: relative;
   	z-index: 0;
   	background: url(img/videoimg.png) no-repeat center center;
@@ -194,7 +198,8 @@ hr{
     min-height: 550px;
     text-align: center;
   }
-.fade-video{
+
+.fade-video {
 	position: absolute; 
 	background-color: rgba(47, 31, 86, 0.85);
 	z-index: 1;
@@ -203,14 +208,15 @@ hr{
 	left: 0;
 	bottom:0 ;
 }
- .videoh{
+
+ .videoh {
  	margin-top: 200px;
  	text-align: center;
 	z-index: 2;
 	position: relative;
  }
 
-.watch-our-story{
+.watch-our-story {
 	font-size: 16px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
@@ -218,18 +224,20 @@ hr{
 	position: relative;
 }
 
-.section-expertise{
+.section-expertise {
 	text-align: center;
 	padding: 30px 0;
 }
-.expertise{
+
+.expertise {
 	font-size: 22px;
 	font-family: "PlayfairDisplay";
 	color: rgb(65, 61, 75);
 	font-weight: bold;
 	text-align: center;
 }
-.hr3{
+
+.hr3 {
 	align-items: center;
   	position: relative;
   	border-color: rgb(0, 0, 0, 0.102);
@@ -237,7 +245,8 @@ hr{
     margin-top: 30px;
     z-index: 3;
   }
-.section-expertise-table{
+
+.section-expertise-table {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -247,28 +256,31 @@ hr{
 	margin-left: 15%;
 }
 
-.monitor{
+.monitor {
 	border-right: 2px solid rgb(0, 0, 0, 0.102);
 	border-bottom: 2px solid rgb(0, 0, 0, 0.102) ;
 	text-align: center;
 	padding: 2%;
 }
-.tassel{
+
+.tassel {
 	border-right: 2px solid rgb(0, 0, 0, 0.102) ;
 	border-bottom: 2px solid rgb(0, 0, 0, 0.102) ;
    	text-align: center;
    	padding: 2%;
 }
-.tasse-img{
+
+.tasse-img {
 	min-height: 50px;
 }
 
-.phone{
+.phone {
 	border-bottom: 2px solid rgb(0, 0, 0, 0.102) ;
 	text-align: center;
 	padding: 2%;
 }
-.section-expertise-table-two{
+
+.section-expertise-table-two {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -278,28 +290,28 @@ hr{
 	padding-bottom: 7%;
 }
 
-.pie{
+.pie {
 	border-right: 2px solid rgb(0, 0, 0, 0.102) ;
    	text-align: center;
    	padding: 2%;
 }
 
-.game{
+.game {
 	border-right: 2px solid rgb(0, 0, 0, 0.102) ;
 	text-align: center;
 	padding: 2%;
 }
- 
-.heart{
+
+.heart {
 	text-align: center;
 	padding: 2%;
 }
 
-.heart-img{
+.heart-img {
 	min-height: 50px;
 }
 
-.section-teams{
+.section-teams {
 	background-image: url(img/five-section-img.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -310,7 +322,7 @@ hr{
 	padding: 30px 0;
 }
 
-.section-teams-fade{
+.section-teams-fade {
 	position: absolute; 
 	background-color: rgba(47, 31, 86, 0.85);
 	z-index: 1;
@@ -319,12 +331,13 @@ hr{
 	left:0;
 	bottom:0 ;
 }	
-.title-meet{
+
+.title-meet {
 	margin-top: 70px;
 	text-align: center;
 	position: relative;
 }
-.meet-our-amazing-team{
+.meet-our-amazing-team {
 	font-size: 22px;
 	font-family: "PlayfairDisplay";
 	color: rgb(255, 255, 255);
@@ -333,12 +346,13 @@ hr{
 	z-index: 2;
 	position: relative;
 }
-.section-teams-p{
+.section-teams-p {
 	color: rgb(255, 255, 255);
 	position: relative;
 	z-index: 2
 }
-.hr3{
+
+.hr3 {
 	align-items: center;
   	position: relative;
   	border-color: rgb(255, 255, 255);
@@ -347,7 +361,7 @@ hr{
    	z-index: 2;
 }
 
-.team{
+.team {
  	display: flex;
  	text-decoration: row;
  	justify-content: space-around;
@@ -356,11 +370,11 @@ hr{
  	margin-top: 45px;
  }
  
- .member{
+ .member {
 	border: 1px rgb(225, 225, 225) solid ;
  }
 
- figcaption h5{
+ figcaption h5 {
  	font-size: 14px;
   	font-family: "Roboto";
   	color: rgb(255, 255, 255);
@@ -369,7 +383,7 @@ hr{
 	padding: 0;
  }
 
- figcaption p{
+ figcaption p {
  	font-size: 13px;
 	font-family: "Roboto";
 	color: rgba(250, 250, 250, 0.702);
@@ -379,11 +393,11 @@ hr{
 	line-height: 25px;
  }
 
- figcaption{
+ figcaption { 
  	padding: 20px 0;
  }
 
- .section-teams-p-two{
+ .section-teams-p-two {
 	font-size: 14px;
   	font-family: "Roboto";
   	color: rgb(243, 243, 243);
@@ -393,12 +407,12 @@ hr{
   	margin-top: 70px;
  }
 
- .section-teams-button{
+ .section-teams-button {
  	display: flex;
  	justify-content: center;
  }
 
- .button-team{
+ .button-team {
 	background-color: Transparent;
 	border:1px #00e0d0 solid;
 	padding: 10px;
@@ -414,38 +428,38 @@ hr{
 
 }
 
-.button-team:hover{
+.button-team:hover {
 	background: #fff;
 	color: black;
 	border: none;
 	transition: all ease 0.5s;
 }
 
-.top-sectin-works{
+.top-sectin-works {
 	display: flex;
 	text-decoration: row;
 	justify-content: space-around;
 	padding: 60px 0;
 }
 
-.imgs-section-works{
+.imgs-section-works {
 	display: flex;
 	text-decoration: row;
 }
 
-.img-works{
+.img-works {
 	width: 208.25px;
 	height: 155.98px;
 }
 
-.button-section-works{
+.button-section-works {
 	display: flex;
 	justify-content: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
 } 
 
-.button-load-more{
+.button-load-more {
 	background-color: Transparent;
 	border:1px #00e0d0 solid;
 	padding: 10px;
@@ -459,13 +473,13 @@ hr{
 	text-align: center;
 
 }
-.button-load-more:hover{
+.button-load-more:hover {
 	background: #00e0d0 ;
 	color: #fff;
 	transition: all ease 0.5s;
 }
 
-.section-people-say{
+.section-people-say {
 	background-image: url(img/seven-section-img.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -476,7 +490,7 @@ hr{
 	padding: 30px 0;
 }
 
-.people-say-fade{
+.people-say-fade {
 	position: absolute; 
 	background-color: rgba(47, 31, 86, 0.85);
 	z-index: 1;
@@ -486,14 +500,14 @@ hr{
 	bottom:0 ;
 }
 
-.quotes{
+.quotes {
 	text-align: center;
 	position: relative;
 	z-index: 3;
 	margin-top: 40px;
 }
 
-.people-say-p p{
+.people-say-p p {
 	text-align: center;
 	position: relative;
 	z-index: 3;
@@ -505,7 +519,7 @@ hr{
     margin-left: 24%;
 }
 
-.people-say-name{
+.people-say-name {
 	text-align: center;
 	z-index: 3;
 	position: relative;
@@ -517,14 +531,14 @@ hr{
     margin: 0;
 }
 
-.people-say-name span{
+.people-say-name span {
 	font-size: 13px;
     font-family: "Roboto";
     color: rgba(255, 255, 255, 0.702);
     line-height: 30px;
 }
 
-.people-say-img{
+.people-say-img {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -533,40 +547,34 @@ hr{
 	z-index: 3;
 	margin-top: 45px;
 }
-.small-img{
+.small-img {
 	border-radius: 50%;
 	height: 45px;
 	margin-right: 10px;
 }
 
-.bigger-small-img{
+.bigger-small-img {
 	margin-right: 10px;
 }
 
-.mark-left{
+.mark-left {
 	height: 15px;
 	margin: 30px;
 }
 
-.mark-right{
+.mark-right {
 	height: 15px;
 	margin: 20px;
 }
 
-/*.top-section-contact{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}*/
-
-form{
+form {
 	max-width: 450px;
 	margin-left: auto;
 	margin-right: 20px;
 }
 
 .form input,
-textarea{
+textarea {
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 10px 25px;
@@ -574,11 +582,12 @@ textarea{
   	font-family: "Roboto";
   	color: rgba(65, 61, 75, 0.502);
 }
-textarea{
+
+textarea {
 	height: 190px;
  }
 
-.button-submit{
+.button-submit {
 	background-color: Transparent;
 	border:1px #00e0d0 solid;
 	padding: 10px;
@@ -589,39 +598,39 @@ textarea{
 	max-width: 100px;
 	
 }
-.button-submit:hover{
+.button-submit:hover {
 	background: #00e0d0 ;
 	color: #fff;
 	transition: all ease 0.5s;
 }
-.section-contact{
+.section-contact {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding-left: 30px;
 }
-.content-section-contact{
+.content-section-contact {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin-bottom: 70px;
 }
-.happy-client{
+.happy-client {
 	display: flex;
 	flex-direction: column;
 }
-.clients-all{
+.clients-all {
 	display: flex;
 	flex-direction: row;
 }
 
-.clients{
+.clients {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 }
 
-.section-contact-two{
+.section-contact-two {
 	background-image: url(img/keyboard.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -632,7 +641,7 @@ textarea{
 	padding: 30px;
 }
 
-.fade-section-contact-two{
+.fade-section-contact-two {
 	position: absolute; 
 	background-color: rgba(47, 31, 86, 0.85);
 	z-index: 1;
@@ -641,7 +650,8 @@ textarea{
 	left:0;
 	bottom:0 ;
 }
-.section-contact-two{
+
+.section-contact-two {
 	padding: 30px 0;
 	display: flex;
 	flex-direction: row;
@@ -649,7 +659,7 @@ textarea{
 	padding-right: 15%;
 }
 
-.section-contact-two-left{
+.section-contact-two-left {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -658,18 +668,20 @@ textarea{
 	max-width: 300px;
 }
 
-.h-section-contact-two{
+.h-section-contact-two {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	z-index: 3;
 	position: relative;
 }
-.section-contact-two-left img{
+
+.section-contact-two-left img {
 	width: 128px;
 	height: 50px;
 }
-.section-contact-two-left p{
+
+.section-contact-two-left p {
 	font-size: 14px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
@@ -678,7 +690,7 @@ textarea{
 
 }
 
-.h-section-contact-two a{
+.h-section-contact-two a {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	padding-top: 80px;
@@ -686,7 +698,8 @@ textarea{
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 }
-.section-contact-two-centre{
+
+.section-contact-two-centre {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -695,20 +708,21 @@ textarea{
 	max-width: 265px;
 	margin-left: 35px;
 }
-.section-contact-two-centre h5{
+
+.section-contact-two-centre h5 {
 	font-size: 15px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 	margin-top: 20px;
 }
 
-.number-phone{
+.number-phone {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.p-section-contact-two{
+.p-section-contact-two {
 	font-size: 14px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
@@ -725,11 +739,11 @@ textarea{
 	max-height: 130px;
 }
 
-.p-number-phone{
+.p-number-phone {
 	line-height: 30px;
 }
 
-.section-contact-two-right{
+.section-contact-two-right {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -739,12 +753,12 @@ textarea{
 	margin-left: 60px;
 }
 
-.section-contact-two-right h5{
+.section-contact-two-right h5 {
 	font-size: 15px;
 	font-family: "Roboto";
 	color: rgb(255, 255, 255);
 }
-.newsletter{
+.newsletter {   
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
@@ -753,13 +767,13 @@ textarea{
 	height: 40px;
 }
 
-.mail-input{
+.mail-input {
 	background-color: transparent;
 	max-height: 40px;
 	width: 210px;
 }
 
-.button-plane{
+.button-plane {
 	height: 40px;
 	width: 70px;
 	background-color: rgba(156, 148, 174 , 0.75);
@@ -773,31 +787,31 @@ textarea{
 	border: none;
 }
 
-.button-plane img{
+.button-plane img {
 
 }
 
-.socials{
+.socials {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 25px;
 }
 
-.social{
+.social {
 	border-radius: 50%;
 	border: 1px solid #ffffff;
 	width: 33px;
 	height: 33px
 }
 
-.social-icon{
+.social-icon {
 	display: block;
 	margin: auto;
 	margin-top: 10px;
 }
 
-.copyright{
+.copyright {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
